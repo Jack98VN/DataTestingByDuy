@@ -2,7 +2,8 @@ name: Deploy Terraform to AWS
 on:
   push:
     branches:
-      - dev
+      - dev/config-aws-by-using-terraform-file
+      #dev/config-aws-by-using-terraform-file
 jobs:
   deploy:
     runs-on: ubuntu-latest
